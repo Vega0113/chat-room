@@ -12,8 +12,8 @@ import java.io.*;
 import java.net.Socket;
 
 public class ChatClient extends Application {
-    private static String HOST = System.getenv().getOrDefault("SERVER_HOST", "acela.proxy.rlwy.net");
-    private static int PORT = Integer.parseInt(System.getenv().getOrDefault("SERVER_PORT", "42808"));
+    private static String HOST = System.getenv().getOrDefault("SERVER_HOST", "gondola.proxy.rlwy.net");
+    private static int PORT = Integer.parseInt(System.getenv().getOrDefault("SERVER_PORT", "31198"));
     private Socket socket;
     private PrintWriter out;
     private LoginController loginCtrl;
